@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Confirm trip</title>
+        <link href="../CSS/style.css" rel="stylesheet"/>
+        <script defer="" src="../JS/script.js"></script>
+    </head>
+    <body class="is-confirm">
+        <div class="app-shell">
+            <main class="confirm-page" id="app-content">
+                <header class="confirm-header">
+                    <a label="Go back" class="arrow1" href="search.html">←</a>
+                    <img Notifications" class="bell" src="../assets/bell.png"/>
+                </header>
+
+                <section class="confirm-sheet">
+                    <div class="sheet-handle"></div>
+                    <div class="trip-heading">
+                        <h1>8:00 <span class="trip-arrow">→</span> 8:35 AM</h1>
+                        <strong class="trip-total">$12</strong>
+                    </div>
+                    <p class="trip-details">Sat, Oct 24 · Steven <span class="verified">✓</span> · White Honda Civic</p>
+                    <section class="card1">
+                        <div class="row">
+                            <span class="start"></span>
+                            <div class="text">
+                                <h2>Lakeside Apartment</h2>
+                                <p>144 Front St, Oakville</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span class="end"></span>
+                            <div class="text">
+                                <h2>Sheridan College</h2>
+                                <p>Trafalgar Rd campus</p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="seats-row">
+                        <div class="seats-text">
+                            <h2>Seats</h2>
+                            <p>2 left on this ride</p>
+                        </div>
+                        <div class="seat-counter">
+                            <button label="Decrease seats" class="seat-circle" type="button">-</button>
+                            <span class="seat-number">1</span>
+                            <button label="Increase seats" class="seat-circle" type="button">+</button>
+                        </div>
+                    </div>
+                    <div class="payment-row">
+                        <span class="payment-card">Visa •••• 4417</span>
+                        <span class="payment-change">Change</span>
+                        <span class="cancel-pill">Free cancellation up to 2h before</span>
+                    </div>
+                    <button class="confirm-button" id="confirm-trip">Confirm · $12</button>
+                </section>
+            </main>
+
+            <nav label="Main navigation" class="floating-nav">
+                <img src="../assets/menu.png"/>
+                <a label="Home" class="home-link" href="index.html"></a>
+                <a label="Find rides" class="find-link" href="search.html"></a>
+                <a label="Post a ride" class="post-link" href="post.html"></a>
+                
+            </nav>
+        </div>
+    </body>
+</html>
