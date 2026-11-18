@@ -26,6 +26,13 @@ if (postButton) {
     });
 }
 
+const rideButton = document.querySelector('#post-ride');
+if (rideButton) {
+    rideButton.addEventListener('click', function () {
+        window.location.href = 'search.html';
+    });
+}
+
 const seatNumber = document.querySelector('.seat-number');
 const seatButtons = document.querySelectorAll('.seat-counter .seat-circle');
 if (seatNumber && seatButtons.length === 2) {
