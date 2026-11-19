@@ -275,6 +275,15 @@ button { cursor: pointer; }
 .driver-info p { margin: 0; color: var(--brown); font-size: 12px; }
 .plate-row {display: flex;align-items: center;gap: 12px;flex-wrap: nowrap;
 }
+
+.license-plate-w{
+  height:30px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding:9px;
+  font-size: 12px; 
+  font-weight:700;
+}
 .license-plate { grid-column: 3; grid-row: 1; white-space: nowrap; padding: 4px 5px; border: 1px solid var(--line); border-radius: 8px; background: #fff; font-size: 12px; font-weight:700;}
 .message-circle { grid-column: 3; grid-row: 2; justify-self: end; width: 35px; height: 35px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: #fff; }
 .chat-symbol { position: relative; width: 22px; height: 18px; display: grid; place-items: center; border: 1.5px solid #302b4e; border-radius: 5px; color: #302b4e; font-size: 12px; line-height: 1; letter-spacing: -1px; }

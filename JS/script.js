@@ -1,3 +1,6 @@
+// I use this code just make sure I use JS part in my font end.
+//use ajax
+
 const searchButton = document.querySelector('#search-rides');
 if (searchButton) {
     searchButton.addEventListener('click', function () {
